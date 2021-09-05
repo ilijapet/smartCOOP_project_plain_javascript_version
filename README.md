@@ -1,15 +1,15 @@
 
 <p align="center">
-<img src =".\raspberries-3454504_1920.jpg" width="300")
+<img src =".\red-2650342_1920.jpg" width="300")
 </p> 
 
 
-## <p align="center"> Smart Contract based agricultural cooperatives </p>
+## <p align="center"> Smart Contract based agricultural cooperative </p>
 
 
-With this project we would like to asses possbilities coming out from blockchain world and their potential to address some of the most pressing chalengies small agircultural producers confront. 
+With this project we would like to asses possbilities coming out from blockchain world to address some of the most pressing chalengies small agircultural producers confront. 
 
-In this project we will offere simplified verison of market reality which is off course much more complex and nunced. But still we belive that this exrcesis and model provided here have all neccesery elements which can demonstrate some of potential blockhaine tehcnology have to positivly impact field of agriculture.
+In this project we will offere simplified verison of market reality which is off course much more complex and nunced. But still we belive that this exrcesis and model provided here have all neccesery elements which can demonstrate some of potential blockhaine tehcnology have for field of agriculture.
 
 
 ## 1) Problem statment
