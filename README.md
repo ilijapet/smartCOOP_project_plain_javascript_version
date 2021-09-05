@@ -9,7 +9,7 @@
 
 With this project we would like to asses possbilities coming out from blockchain world to address some of the most pressing chalengies small agircultural producers confront. 
 
-In this project we will offere simplified verison of market reality which is off course much more complex and nunced. But still we belive that this exrcesis and model provided here have all neccesery elements which can demonstrate some of potential blockhaine tehcnology have for field of agriculture.
+In this project we will offere simplified verison of market reality which is much more complex and nunced then presented here. But still we belive that this exrcesis and model provided have all neccesery elements which can demonstrate some of potential we belive blockhaine tehcnology have for field of agriculture.
 
 
 ## 1) Problem statment
