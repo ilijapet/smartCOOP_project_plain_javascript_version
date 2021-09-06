@@ -39,7 +39,7 @@ This project assume that:
 ## 4) Graphical represenation of user workflow (cooperant/small producer and buyer)
 
 <p align="center">
-<img src =".\pictures\Logic@2x.png" width="1000" height="400")
+<img src =".\pictures\Logic@2x.png" width="1000" height="600")
 </p> 
 
 ## 4.1) Textual explanation of step by setp workflow from cooperant and buyer perspective
