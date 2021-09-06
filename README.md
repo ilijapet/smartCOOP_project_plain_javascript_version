@@ -39,7 +39,7 @@ This project assume that:
 ## 4) Graphical represenation of user workflow (cooperant/small producer and buyer)
 
 <p align="center">
-<img src =".\pictures\SmartContractBasedAgriculturalCooperative.png" width="1000" height="400")
+<img src =".\pictures\Logic.png" width="1000" height="400")
 </p> 
 
 
