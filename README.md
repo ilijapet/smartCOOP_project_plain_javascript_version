@@ -4,7 +4,7 @@
 </p> 
 
 
-## <p align="center"> Smart Contract based agricultural cooperatives </p>
+## <p align="center"> Smart Contract based agricultural cooperative </p>
 
 
 With this project we would like to asses possbilities coming out from blockchain world to address some of the most pressing chalengies small agircultural producers confront. In this project we will offere simplified verison of market reality which is much more complex and nunced then presented here. But still we belive that this exrcesis and model presented have all neccesery elements which can allow us to demonstrate some of potentials blockchain tehcnology have for field of agriculture.
@@ -54,17 +54,15 @@ Step 3: Buyer declare intention that he want to buy 100kg \
 3.5: Cooperant send back cooperative tokens in equal value to amount of good he sold 
 
 
-## 5) Connecting elements from SC to each step in producer/buyer workflow
+## 5) Connecting elements from smart contracts to each step in producer/buyer workflow
 
-- Step 1: Function for making deposit to cooperativ ETH account
-- Step 2: Function with parametar about number of kilograms we put in refrigerator. This function also should automaticly send back cooperative tokens to account of cooperat taking into acount parametar about amount of fruits he put in refigerator (ratio 1kg = 1 cooperativ token). 
-- Step 3: Buyer make a bid for 100 kg to cooperant 
-<br/>
-    3.1 price function calculate based on Oracle price feed and ammount buyer wants to buy 
-    <br/>
-    3.2/3 Offer is send to first cooperant in the refigerator stack (who bring fruits first have righ to recive offer first). If cooperant accept bid we move to funciton under 3.4. if he reject we send bid to next cooperat in stack till very the end. If nobody accept price then buyer get a message that bid was to low and process is teminated.
-    3.4: Buyer transfer ammount to cooperant and 3% from total ammount goes to cooperative found. 
-    3.5: In the same time cooperant who receive payment from buyer will automaticaly send back cooperativ tokens to cooeprativ token pool.      
+Step 1: Function for making deposit to cooperativ ETH account \
+Step 2: Function with parametar about number of kilograms we put in cooperative refrigerator. This function also should automaticly send back cooperative tokens to account of cooperat taking into acount parametar about amount of fruits he put in refigerator (ratio 1kg = 1 cooperativ token) \
+Step 3: Buyer make a bid for 100 kg to cooperant \ 
+3.1 price function calculate based on Oracle price feed and ammount buyer wants to buy \
+3.2/3 Offer is send to first cooperant in the refigerator stack (who bring fruits first he have rights to recive offer first FIFO). If cooperant accept bid we move to funciton number 3.4. If he reject we send bid to next cooperat in stack till very the end. If nobody accept price then buyer get a message that bid was to low and process is teminated \
+3.4: Buyer transfer ammount to cooperant and 3% from total ammount goes to cooperative found \
+3.5: In the same time cooperant who receive payment from buyer will automaticaly send back cooperativ tokens to cooeprativ token pool \      
 
 
 
