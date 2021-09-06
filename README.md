@@ -7,7 +7,7 @@
 ## <p align="center"> Smart Contract based agricultural cooperative </p>
 
 
-With this project we would like to asses possbilities coming out from blockchain world to address some of the most pressing chalengies small agircultural producers confront. In this project we will offere simplified verison of market reality which is much more complex and nunced then presented here. But still we belive that this exrcesis and model presented have all neccesery elements which can allow us to demonstrate some of potentials blockchain tehcnology have for field of agriculture.
+With this project we would like to asses possbilities coming out from blockchain world to address some of the most pressing chalengies small agircultural producers confront. In this project we will offere simplified verison of market reality which is much more complex and nunced then presented here. But still we belive that this exrcesis and model presented here have all neccesery elements which can allow us to demonstrate some of potentials blockchain tehcnology have for field of agriculture.
 
 
 ## 1) Problem statment
@@ -55,7 +55,7 @@ Step 3: Buyer declare intention that he want to buy 100kg \
 <br/>
 3.3: Offers goes to next cooperant in stack and then we repeat step 3.2  
 <br/>
-3.4: Buyer pay directly to cooperant and on the way 3% of total trade goes to Cooperativ found \
+3.4: Buyer pay over cooperative smrat contract and in this way 3% of total trade goes to Cooperativ found rest to cooperant \
 <br/>
 3.5: Cooperant send back cooperative tokens in equal value to amount of good he sold 
 
@@ -66,7 +66,7 @@ Step 1: Function for making deposit to cooperativ ETH account \
 <br/>
 Step 2: Function with parametar about number of kilograms we put in cooperative refrigerator. This function also should automaticly send back cooperative tokens to account of cooperat taking into acount parametar about amount of fruits he put in refigerator (ratio 1kg = 1 cooperativ token) \
 <br/>
-Step 3: Buyer make a bid for 100 kg to cooperant \ 
+Step 3: Buyer make a bid for 100 kg to cooperant  
 <br/>
 3.1 price function calculate based on Oracle price feed and ammount buyer wants to buy \
 <br/>
@@ -81,8 +81,8 @@ Step 3: Buyer make a bid for 100 kg to cooperant \
 ## 6) Proposed tech stack for implementaiton of smart conatrct and front end
 - Solidity
 - Brownie
-- HTML/CSS/JavaScript
 - Ganache
 - MetaMask
+- HTML/CSS/JavaScript
 
 
