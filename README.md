@@ -12,7 +12,7 @@ With this project we would like to asses possibilities coming out from blockchai
 
 ## 1) Problem statement
 
-Small producers don't have enough capacity to be effectively present on market as individual producer. That is why they have two options on their disposal:
+Small agricultural producers don't have enough capacity to be effectively present on market as individual producer. That is why they have two options on their disposal:
 
 First: to organize themselves in traditional cooperatives in order to improve their negotiation position with bigger corporate buyers. Through this self-organization they can strenghten their position and the postion of their products at the market. Second: sell as individual producers to big corporations under conditions often not so favorable to them. 
 
