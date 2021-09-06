@@ -73,7 +73,7 @@ Step 3: Buyer function where he can declara his intetion to buy and parameter fo
 <br/>
 3.1 Price function calculate total to pay based on Oracle price feed and amount buyer wants to buy \
 <br/>
-3.2/3 Offer is send to first producer in the refrigerator stack (who bring fruits first he have rights to receive offer first - First in First Out). If producer accept bid we move to function number 3.4. If he reject we send bid to next cooperate in stack till very end of stack. If nobody accept price buyer get a message that price was to low and process is terminated \
+3.2/3 Offer is send to first producer from the refrigerator stack (who bring fruits first he have rights to receive offer first - First in First Out). If producer accept bid we move to step number 3.4. If he reject we send bid to next cooperate in stack till very end of stack. If nobody accept price smart contract will retunr to buyer message that price was to low and process will be terminated \
 <br/>
 3.4: If bid was sucesful buyer transfer total amount to cooperative smart contract from where 3% goes to cooperative found and rest 97% to producer\
 <br/>
