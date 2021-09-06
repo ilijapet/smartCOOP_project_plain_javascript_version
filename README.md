@@ -44,13 +44,19 @@ This project assume that:
 
 ## 4.1) Textual explanation of step by setp workflow from cooperant and buyer perspective
 Step 1: Becoming cooperant by transfering certain amount of ETH to Cooperative found \
+<br/>
 Step 2: Transfering your fruits to coopertive refigerator <br/> 
 2.1: Receiving equal amount of cooperative tokens to personal account (100 kg of fruits = 100 cooperative tokens) \
+<br/>
 Step 3: Buyer declare intention that he want to buy 100kg \
 3.1: Oracle feed help us calcuclate price he need to pay for that ammount based on curent market prices \
+<br/>
 3.2: Offer sent to cooperant first in the stack. If cooperant accept price we move to step 3.4 else we move to 3.3 \
+<br/>
 3.3: Offers goes to next cooperant in stack and then we repeat step 3.2  
+<br/>
 3.4: Buyer pay directly to cooperant and on the way 3% of total trade goes to Cooperativ found \
+<br/>
 3.5: Cooperant send back cooperative tokens in equal value to amount of good he sold 
 
 
