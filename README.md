@@ -67,17 +67,17 @@ Step 3: Buyer declare intention that he want to buy 100kg \
 
 Step 1: Function for making deposit to cooperative ETH account (becoming member) \
 <br/>
-Step 2: Function with parameter about number of kilograms we put in cooperative refrigerator. This function also should automatically send back cooperative tokens to account of small producer taking into account parameter about amount of fruits he put in refrigerator (ratio 1kg = 1 cooperative token) \
+Step 2: Function with parameter about number of kilograms producer put in cooperative refrigerator. This function also should automatically send back cooperative tokens to account of small producer taking into account parameter about amount of fruits he put in refrigerator (ratio 1kg = 1 cooperative token) \
 <br/>
-Step 3: Buyer make a bid for 100 kg to small producer  
+Step 3: Buyer function where he can declara his intetion to buy and parameter for defining amount of fruits he would like to buy   
 <br/>
 3.1 Price function calculate total to pay based on Oracle price feed and amount buyer wants to buy \
 <br/>
-3.2/3 Offer is send to first cooperant in the refrigerator stack (who bring fruits first he have rights to receive offer first - First in First Out). If producer accept bid we move to function number 3.4. If he reject we send bid to next cooperate in stack till very end of stack. If nobody accept price buyer get a message that bid was to low and process is terminated \
+3.2/3 Offer is send to first producer in the refrigerator stack (who bring fruits first he have rights to receive offer first - First in First Out). If producer accept bid we move to function number 3.4. If he reject we send bid to next cooperate in stack till very end of stack. If nobody accept price buyer get a message that price was to low and process is terminated \
 <br/>
-3.4: Buyer transfer amount to cooperative smart contract from where 3% of total amount goes to cooperative found and rest 97% to producer\
+3.4: If bid was sucesful buyer transfer total amount to cooperative smart contract from where 3% goes to cooperative found and rest 97% to producer\
 <br/>
-3.5: In the same time producer who receive payment from buyer will automatically send back cooperative tokens to cooperative token pool 
+3.5: In the same time producer who receive payment from buyer automatically send back cooperative tokens to cooperative token pool 
 
 
 ## 6) Proposed tech stack for smart contract implementation and front end
