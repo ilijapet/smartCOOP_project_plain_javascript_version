@@ -39,18 +39,40 @@ This project assume that:
 ## 4) Graphical represenation of user workflow (cooperant/small producer and buyer)
 
 <p align="center">
-<img src =".\pictures\Logic.png" width="1000" height="400")
+<img src =".\pictures\Logic@2x.png" width="1000" height="400")
 </p> 
 
-
-## <p align="center"> Smart Contract based agricultural cooperatives </p>
-
-
 ## 4.1) Textual explanation of step by setp workflow from cooperant and buyer perspective
+- Step 1: Becoming cooperant by transfering certain amount of ETH to Cooperative found
+- Step 2: Transfering your fruits to coopertive refigerator 
+- 2.1: Receiving equal amount of cooperative tokens to personal account (100 kg of fruits = 100 cooperative tokens)
+- Step 3: Buyer declare intention that he want to buy 100kg
+- 3.1: Oracle feed help us calcuclate price he need to pay for that ammount based on curent prices
+- 3.2: Offer sent to cooperant first in the stack. If cooperant accept price we move to step 3.4 else we move to 3.3
+- 3.3: Offers goes to next cooperant in stack and then we repeat Step 3.2 
+- 3.4: Buyer pay directly to cooperant and on the way 3% of total trade goes to Cooperativ found
+- 3.5: Cooperant send back cooperative tokens in equal value to amount of good he sold ant 
 
 
 ## 5) Connecting elements from SC to each step in producer/buyer workflow
 
+- Step 1: Function for making deposit to cooperativ ETH account
+- Step 2: Function with parametar about number of kilograms we put in refrigerator. This function also should automaticly send back cooperative tokens to account of cooperat taking into acount parametar about amount of fruits (ratio 1kg 1 cooperativ token). 
+- Step 3: Buyer make a bid for 100 kg to cooperant 
+<br/>
+    3.1 price function calculate based on Oracle price feed and ammount buyer wants to buy 
+    <br/>
+    3.2/3 Offer is send to first cooperant in the refigerator stack (who bring fruits first have have righ to recive offer first). If cooperant accept bid we move to funciton under 3.4. if he reject we send bid to next cooperat in stack till the end. If nobody accept price then buyer get a message that bid was to low and process is teminated.
+    3.4: Buyer transfer ammount to cooperant and 3% from total ammount goes to cooperative found. 
+    3.5: In the same time cooperant who receive payment from buyer will automaticaly send back cooperativ tokens to cooeprativ token pool.      
 
-## 6) Proposed tech stack
+
+
+## 6) Proposed tech stack for implementaiton of smart conatrct and front end
+- Solidity
+- Brownie
+- HTML/CSS/JavaScript
+- Ganache
+- MetaMask
+
 
