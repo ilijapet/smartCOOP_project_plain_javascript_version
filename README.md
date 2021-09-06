@@ -63,11 +63,17 @@ Step 3: Buyer declare intention that he want to buy 100kg \
 ## 5) Connecting elements from smart contracts to each step in producer/buyer workflow
 
 Step 1: Function for making deposit to cooperativ ETH account \
+<br/>
 Step 2: Function with parametar about number of kilograms we put in cooperative refrigerator. This function also should automaticly send back cooperative tokens to account of cooperat taking into acount parametar about amount of fruits he put in refigerator (ratio 1kg = 1 cooperativ token) \
+<br/>
 Step 3: Buyer make a bid for 100 kg to cooperant \ 
+<br/>
 3.1 price function calculate based on Oracle price feed and ammount buyer wants to buy \
+<br/>
 3.2/3 Offer is send to first cooperant in the refigerator stack (who bring fruits first he have rights to recive offer first FIFO). If cooperant accept bid we move to funciton number 3.4. If he reject we send bid to next cooperat in stack till very the end. If nobody accept price then buyer get a message that bid was to low and process is teminated \
+<br/>
 3.4: Buyer transfer ammount to cooperant and 3% from total ammount goes to cooperative found \
+<br/>
 3.5: In the same time cooperant who receive payment from buyer will automaticaly send back cooperativ tokens to cooeprativ token pool \      
 
 
