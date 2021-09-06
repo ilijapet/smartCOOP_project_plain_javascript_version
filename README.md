@@ -7,7 +7,7 @@
 ## <p align="center"> Smart Contract based agricultural cooperatives </p>
 
 
-With this project we would like to asses possbilities coming out from blockchain world to address some of the most pressing chalengies small agircultural producers confront. In this project we will offere simplified verison of market reality which is much more complex and nunced then presented here. But still we belive that this exrcesis and model with which we work here have all neccesery elements which can demonstrate some of potentials blockchain tehcnology have for field of agriculture.
+With this project we would like to asses possbilities coming out from blockchain world to address some of the most pressing chalengies small agircultural producers confront. In this project we will offere simplified verison of market reality which is much more complex and nunced then presented here. But still we belive that this exrcesis and model presented here have all neccesery elements which can allow us to demonstrate some of potentials blockchain tehcnology have for field of agriculture.
 
 
 ## 1) Problem statment
