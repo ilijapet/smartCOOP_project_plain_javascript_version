@@ -67,7 +67,7 @@ Step 3: Buyer declare intention that he want to buy 100kg \
 
 Step 1: Function for making deposit to cooperative ETH account (becoming member) \
 <br/>
-Step 2: Function with parameter about number of kilograms producer put in cooperative refrigerator. This function also should automatically send back cooperative tokens to account of small producer taking into account parameter about amount of fruits he put in refrigerator (ratio 1kg = 1 cooperative token) \
+Step 2: Function with parameter about number of kilograms producer put in cooperative refrigerator. This function also should automatically send back cooperative tokens from cooperativ token pool to account of small producer taking into account parameter about amount of fruits he put in refrigerator (ratio 1kg = 1 cooperative token) \
 <br/>
 Step 3: Buyer function where he can declara his intetion to buy and parameter for defining amount of fruits he would like to buy   
 <br/>
@@ -80,9 +80,10 @@ Step 3: Buyer function where he can declara his intetion to buy and parameter fo
 3.5: In the same time producer who receive payment from buyer automatically send back cooperative tokens to cooperative token pool 
 
 
-## 6) Proposed tech stack for smart contract implementation and front end
+## 6) Proposed tech stack for smart contract implementation and front-end
 - Solidity
 - Brownie
+- web3.py
 - Ganache
 - MetaMask
 - HTML/CSS/JavaScript
