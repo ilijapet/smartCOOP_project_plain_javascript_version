@@ -7,14 +7,14 @@
 ## <p align="center"> Smart Contract based agricultural cooperative </p>
 
 
-With this project we would like to asses possibilities coming out from blockchain world to address some of the most pressing challenges small agricultural producers confront. The project will offer simplified version of market reality which is much more complex and nuanced then presented here. But still we believe this exercise and presented model have all necessary elements which can allow us to demonstrate some of potentials blockchain technology has in the field of agriculture.
+With this project we would like to asses possibilities coming out from blockchain world to address some of the most pressing challenges small agricultural producers confront. The project will offer simplified version of market reality which is much more complex and nuanced then presented here. But still we believe this exercise and presented model have all necessary elements which can allow us to demonstrate some of potentials blockchain technology has to offer to the of agriculture.
 
 
 ## 1) Problem statement
 
 Small agricultural producers don't have enough capacity to be effectively present on market as individual producer. That is why they have two options on their disposal:
 
-First: to organize themselves in traditional cooperatives in order to improve their negotiation position with bigger corporate buyers. Through this self-organization they can strenghten their position and the postion of their products at the market. Second: sell as individual producers to big corporations under conditions often not so favorable to them. 
+First: to organize themselves in traditional cooperatives in order to improve their negotiation position with bigger corporate buyers. Through this self-organization they can strenghten their and their product position postion at the market. Second: sell as individual producers to big corporations under conditions often not so favorable to them. 
 
 Both solutions have some drawbacks. Big corporation tend to offer price to indidvual producers which is basically less then average season price for small fruits and they pay them on the end of season. This means that small producers with their products credit big corporations and for doing that they get the lowest market price for their row fruits. Additionally, there is a counterparty risk involved. Corporations can delay or entirely avoid their obligation to pay small producers which sometimes leads towards legal suits. However, big cooperations are also in much better position to fight legal battles than small, individual producers whose postition is weakend by their lack of legal knowledge and financial means. 
  
@@ -85,6 +85,7 @@ Step 3: Buyer function where he can declara his intetion to buy and parameter fo
 - Brownie
 - web3.py
 - Ganache
+- Create eth app
 - MetaMask
 - HTML/CSS/JavaScript
 
