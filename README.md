@@ -91,3 +91,4 @@ Step 3: Buyer function where he can declara his intetion to buy and parameter fo
 
 Notice: This is just draft version of proposal. During project implementation we will most probably scale down project in scope. Here is presented most ambitious version of proposal. 
 
+ And from here?
