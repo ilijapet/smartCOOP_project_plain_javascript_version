@@ -82,10 +82,11 @@ Step 3: Buyer function where he can declara his intetion to buy and parameter fo
 
 ## 6) Proposed tech stack for smart contract implementation and front-end
 - Solidity
+- Python
 - Brownie
-- web3.py (if needed)
+- web3.js
 - Ganache
-- Create eth app (HTML/CSS/JavaScript/React)
+- HTML/CSS/JavaScript
 - MetaMask
 
 Notice: This is just draft version of proposal. During project implementation we will most probably scale down project in scope. Here is presented most ambitious version of proposal. 
