@@ -1,0 +1,21 @@
+{
+  "contracts": {
+    "COOPToken": "92263ed450cbbee2f714d2756708506d51d07ae6",
+    "Coop": "008c8b2d8cf6e0b9b4dfd5030d7d527ecd9fe375",
+    "OpenZeppelin/openzeppelin-contracts@4.3.1/ERC20": "6a8baa70e0258d085a0063213dc849b548d215cb"
+  },
+  "tests": {
+    "tests/test_coop.py": {
+      "coverage": false,
+      "isolated": [
+        "COOPToken",
+        "Coop",
+        "OpenZeppelin/openzeppelin-contracts@4.3.1/ERC20"
+      ],
+      "results": "..............",
+      "sha1": "fa6b3f46f0140cbc62dbb818d280a825eacdf60d",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}

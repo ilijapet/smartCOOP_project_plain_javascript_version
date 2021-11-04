@@ -1,0 +1,15 @@
+
+dependecise: 
+ - OpenZeppelin/openzeppelin-contracts@4.3.1
+compiler:
+ solc:
+  remappings:
+    - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.3.1' 
+  # version: 0.8.0
+  # optimizer:
+  #   enabled: true
+  #   runs: 200 
+dotenv: .env 
+wallets:    
+  from_key: ${PRIVATE_KEY} 
+
