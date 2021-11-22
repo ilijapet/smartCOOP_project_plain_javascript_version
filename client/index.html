@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>SmartCOOP - agricultural cooperative </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <script type="text/javascript" src="https://unpkg.com/web3@1.2.11/dist/web3.min.js"></script>
+  <script type="text/javascript" src="./housekeeping.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1><img src="./noun_raspberry_4132882_mala.svg"> </h1>
+    <h1>SmartCOOP</h1>
+    <h1>smart contract based agricultural cooperative</h1>
+
+    <div id="prepare">
+      <button id="btn-connect">
+        Connect wallet
+      </button>
+    </div>
+
+    <div id="connected" style="display: none">
+      <button id="btn-disconnect">
+        Disconnect wallet
+      </button>
+    </div>
+
+    <button class="button" data-progress-text="In progress..." data-complete-text="You are now COOP member">
+      <div class="button__progress"></div>
+      <span class="button__text"> Become a SmartCOOP member </span>
+    </button>
+
+    <div id="cooperantProfile">
+      <div id="network">
+        <p>
+          <strong>Cooperant profile </strong>
+          <br>
+          <strong>currently connected to</strong> <span id="network-name"></span> <strong> network </strong>
+        </p>
+      </div>
+      <table class="table table-listing">
+        <thead>
+          <th> Your address is </th>
+          <th> COOP tokens on account </th>
+          <th> Amount of your raspberries in SmartCOOP warhouse (kg)</th>
+        </thead>
+        <tbody id="accounts">
+        </tbody>
+      </table>
+
+      <label for="deposit_kg"> I want to deposit </label>
+      <input type="number" id="deposit_kg" placeholder="kg">
+
+      <button type="submit" class="deposit" id="deposit_raspberry" data-progress-text="In progress..."
+        data-complete-text=" Deposit your raspberry">
+        <div class="button__progress_deposit"></div>
+        <span class="button__text_deposit"> Deposit your raspberry </span>
+      </button>
+      <button id="addToken"> Add COOPtoken to wallet </button>
+      <p id="furitsInWarhouse"></p>
+
+    </div>
+
+
+    <div id="bidderProfile">
+      <div id="networkBidder">
+        <p>
+          <strong>Bidders profile </strong>
+          <br>
+          <strong>Currently connected to</strong> <span id="network-name-bidder"></span> <strong> network </strong>
+        </p>
+      </div>
+      <table class="table bider table-listing">
+        <thead>
+          <th> Your address is </th>
+          <th> Total payed in USD </th>
+          <th> Total bought from SmartCOOP (kg)</th>
+        </thead>
+        <tbody id="accounts_bider">
+        </tbody>
+      </table>
+      <label for="bought_kilograms"> I want to buy </label>
+      <input type="number" id="bought_kilograms" placeholder="kg">
+
+      <button type="submit" class="bidder_buy" id="buy_raspberry" data-progress-text="In progress..."
+        data-complete-text="Raspberry bought">
+        <div class="button__progress_deposit_bidder"></div>
+        <span class="button__text_deposit_bidder"> Buy raspberry </span>
+      </button>
+      <p id="boughtFruitsFromWarhouse"></p>
+    </div>
+
+  </div>
+
+  <div id="templates" style="display: none">
+    <template id="template-balance">
+      <tr>
+        <th class="address"></th>
+        <td class="balance"></td>
+        <td class="kg"></td>
+      </tr>
+    </template>
+  </div>
+
+  <div id="templates_bidder" style="display: none">
+    <template id="template-balance-bidder">
+      <tr>
+        <th class="addressBidder"></th>
+        <td class="balanceBidder"></td>
+        <td class="kgBidder"></td>
+      </tr>
+    </template>
+  </div>
+  <script type="module" src="./coop.js"></script>
+</body>
+
+</html>
