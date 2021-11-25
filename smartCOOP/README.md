@@ -207,4 +207,15 @@ And you should see that 9 test are passed (with this test we did basica coverage
 11) Type that you want to buy 10 kg in squere after "I want to buy"  
 12) Click on button **Buy raspbeery** and wait process to finish
 
+## Tech stack used for project
+Solidity
+Paython
+JavaScript
+HTML/CSS
+Brownie
+Web3py
+Web3js
+MetaMask
+
+
 
