@@ -211,7 +211,7 @@ And you should see that 9 test are passed (with this test we did basica coverage
 
 Solidity
 
-Paython
+Python
 
 JavaScript
 
