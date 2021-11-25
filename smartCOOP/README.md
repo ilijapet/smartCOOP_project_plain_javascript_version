@@ -172,19 +172,6 @@ Beafore you start testing and compiling in project root directory you should cre
         # Then we should ad infura entry point though which we will approach to ethereum
         export WEB3_INFURA_PROJECT_ID=xxxxx
 
-Additionaly if you would like to have verificaiton of smart contracts over Ethersacn if you do test of deployment of contracts you should add 
-
-
-    # Etherscan export ETHERSCAN_TOKEN=xxxxxx
-
-Plus add to scripts/deployCOOP.py deploy part: **publish_source=True**
-
-         coopTokenDeployed = COOPToken.deploy({"from": account[0]}, publish_source=True)
-         coop = SmartCOOP.deploy(
-        coopTokenDeployed, eth_usd_price_feed, {"from": account[0]}, publish_source=True
-    )
-
-
 ## Compile and test
 <hr>
 To compile and test project localy just type in project root directory:
