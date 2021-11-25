@@ -79,7 +79,7 @@ The project assumes that Agricultural Cooperative has:
 <br>
 <hr>
 
-## Dependencies prerequisites  -->
+## Dependencies prerequst  -->
 <hr>
 <br>
 
