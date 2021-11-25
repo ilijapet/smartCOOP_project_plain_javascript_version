@@ -69,7 +69,7 @@ The project assumes that Agricultural Cooperative has:
 - Beam scale
 - For purpose and simplicity of the project we will also assume that cooperative is dealing only with one type of small fruits lets say raspberries
 
-### 4) Graphical representation of user workflow (cooperant/small producer and buyer)
+### 4) Graphical representation of user workflow (cooperant/small producer and buyer) and programs logic
 
 <p align="center">
 <img src =".\pictures\Logic@2x.png" width="1000" height="600")
