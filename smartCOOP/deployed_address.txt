@@ -1,12 +1,12 @@
-COOPToken (supporint smarty conatrct) and SmartCOOP (our main contract) are deployed to 
+COOPToken (supporting smart contarct) and SmartCOOP (our main contract) are deployed to 
 Kovan testnet
 
-SmartCOOP deployment address -->
-0x09DA1631B81a9b0eb1BDC12a3798Cc5e312B6709
+SmartCOOP deployment to address -->
+0xfB7A3E46021Be5F70c3A85A7CeB5491AC2338857
 
 
-COOPToken deployment address -->
-0x78A2915F62B5B9c767C857191Da3B232b1E23c71
+COOPToken deployment to address -->
+0xc6Fef8321b54610Afc1828FCF43DB607874962B3
 
 
 Notice: Code of both contarct is verifiable over Etherscan

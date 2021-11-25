@@ -77,22 +77,31 @@ The project assumes that Agricultural Cooperative has:
 
 
 <br>
+<hr>
 
 ## Prerequisites  -->
 <hr>
 <br>
+
 NVM, NPM, Yarn 
 
 Node 12
 
-Ganche-cli
-
 Python >= 3.6.0 
+
+<hr>
+
+## Ganche-cli 
+<hr>
+From project root directory please type
+
+    ➜ smartCOOP$ npm install -g ganache-cli
+
 
 Brownie
 <hr>
 You can install Brownie by using pipx or simple pip
-Installing pipx
+installing. Recommanded way is pipx.
 
     $python3 -m pip install --user pipx
     $python3 -m pipx ensurepath
@@ -124,7 +133,7 @@ Or simply:
 <hr>
 Please from project root directory use following command:
 
-    $brownie pm install OpenZeppelin/openzeppelin-contracts@4.0.0
+    ➜ smartCOOP$ brownie pm install OpenZeppelin/openzeppelin-contracts@4.0.0
 
 <br>
 
@@ -132,14 +141,16 @@ Please from project root directory use following command:
 <hr>
 Please from project root directory use following command:
 
-    $brownie pm install smartcontractkit/chainlink-brownie-contracts@0.2.2
+    ➜ smartCOOP$ brownie pm install smartcontractkit/chainlink-brownie-contracts@0.2.2
 
-## http-localhost over HTTP from client folder
+## http-localhost over HTTP 
 <hr>
+
+From client folder
 
     $python3 -m http.server
 
-You shoudl get something like:
+You should get something like:
 
     Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 
@@ -152,17 +163,27 @@ SmartCOOP front-end now shoudl be visible in your broweser
 ## Environment variables 
 <hr>
 
-If you want to re-deploy SmartCOOP and COOPToken in root project directory you should add .env file and inside that file two additional lines 
+VERY IMPORTANT: 
+Beafore you start testing and compiling in project root directory you should create .env file and inside that file: 
 
-        # Here we have private key export PRIVATE_KEY=xxxxxx
+        # Here we have private key export         
+        PRIVATE_KEY=xxxxxx
 
-        # Then we should ad infura or alchemy or other point though which we will approach to ethereum
+        # Then we should ad infura entry point though which we will approach to ethereum
         export WEB3_INFURA_PROJECT_ID=xxxxx
 
-Additionaly if you would like to have verificaiton of smart contracts over Ethersacn you should add 
+Additionaly if you would like to have verificaiton of smart contracts over Ethersacn if you do test of deployment of contracts you should add 
 
 
     # Etherscan export ETHERSCAN_TOKEN=xxxxxx
+
+Plus add to scripts/deployCOOP.py deploy part: **publish_source=True**
+
+         coopTokenDeployed = COOPToken.deploy({"from": account[0]}, publish_source=True)
+         coop = SmartCOOP.deploy(
+        coopTokenDeployed, eth_usd_price_feed, {"from": account[0]}, publish_source=True
+    )
+
 
 ## Compile and test
 <hr>
@@ -190,13 +211,13 @@ And you should see that 9 test are passed (with this test we did basica coverage
          http://localhost:8000
 
 3) Log-in your MetaMask
-4) Click Become SmartCOOP Member button and confirm transaction
-5) Click button Connect wallet
-6) Enter amout of kilograms you would liek to deposit to SmartCOOP and confirm transaction
-7) Exit by clicking Dissconnect wallet
+4) Click **Become SmartCOOP Member** button and confirm transaction
+5) Click button **Connect wallet**
+6) Enter amout of kilograms you would like to deposit to SmartCOOP and confirm transaction
+7) Exit by clicking **Dissconnect wallet**
 8) Change address in your MetaMask
-9) Click again on "Connect wallet" button (now you are in bidders profile)
+9) Click again on **Connect wallet** button (now you are in bidders profile)
 11) Type that you want to buy 10 kg in squere after "I want to buy"  
-12) Click on button "Buy raspbeery" and wait process to finish
+12) Click on button **Buy raspbeery** and wait process to finish
 
 

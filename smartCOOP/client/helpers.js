@@ -38,7 +38,7 @@ const addToken = document.getElementById("addToken")
 // Helper const
 const expectedBlockTime = 1000;
 const raspberryPrice = 9;
-const tokenAddress = '0x78A2915F62B5B9c767C857191Da3B232b1E23c71';
+const tokenAddress = '0xc6Fef8321b54610Afc1828FCF43DB607874962B3';
 const tokenSymbol = 'COOP';
 const tokenDecimals = 18;
 const tokenImage = 'https://ilijapet.github.io/photos/noun_raspberry_4132882_mala.svg';
