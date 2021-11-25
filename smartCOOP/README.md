@@ -98,7 +98,7 @@ From project root directory please type
     ➜ smartCOOP$ npm install -g ganache-cli
 
 
-Brownie
+## Brownie
 <hr>
 You can install Brownie by using pipx or simple pip
 installing. Recommanded way is pipx.
