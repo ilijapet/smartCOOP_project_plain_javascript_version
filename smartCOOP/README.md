@@ -164,15 +164,13 @@ SmartCOOP front-end now shoudl be visible in your broweser
 <hr>
 
 VERY IMPORTANT: 
-Beafore you start testing and compiling in project root directory you should edit .env file and inside file add your private keys: 
+Beafore you start testing and compiling in project root directory you should add .env file and inside thta file add your private keys and following infura endpoint: 
 
         # Here we have private key export         
         PRIVATE_KEY=xxxxxx
-
-Infura endpoint is already setted:
-
+        
         # Then we should ad infura entry point though which we will approach to ethereum
-        export WEB3_INFURA_PROJECT_ID=
+        export WEB3_INFURA_PROJECT_ID=d95759f532d54ae58967e92d9ccccf95
 
 ## Compile and test
 <hr>
