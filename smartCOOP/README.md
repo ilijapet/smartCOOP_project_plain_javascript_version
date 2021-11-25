@@ -126,7 +126,7 @@ And you should get something like:
 
 Or simply:
 
-    $pip install brownie
+    $pip install eth-brownie
 
 
 ## OpenZeppelin
