@@ -210,7 +210,7 @@ IMPORTANT: Please note that in attempt to test and use dapp you will need two ha
 
 2) Open browser and type in address bar
 
-         http://localhost:8000
+         http://192.168.152.174:8080
 
 3) Log-in your MetaMask
 4) Click **Become SmartCOOP Member** button and confirm transaction
