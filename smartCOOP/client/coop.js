@@ -44,6 +44,7 @@ function init() {
   if (typeof window.ethereum !== 'undefined') {
     console.log('MetaMask is installed!');
   }
+
   cooperantProfile.style.visibility = "hidden";
   bidderProfile.style.visibility = "hidden";
 }
@@ -85,7 +86,8 @@ async function fetchAccountDataBidder() {
   })
 }
 
-// Connect wallet button 
+
+// // Connect wallet button 
 btnConnect.onclick = async () => {
   try {
     await ethereum.request({ method: 'eth_requestAccounts' });
@@ -102,7 +104,6 @@ btnConnect.onclick = async () => {
     fetchAccountDataBidder();
   }
 }
-
 
 // Disconnect wallet button 
 btnDisconnect.onclick = () => {
