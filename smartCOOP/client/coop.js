@@ -212,6 +212,6 @@ try {
 }
 
 window.addEventListener("load", async () => {
-  window.location.reload();
-  init();
+ init();
+ window.location.reload();
 });
