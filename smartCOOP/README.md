@@ -146,6 +146,31 @@ Please from project root directory use following command:
 
     $ brownie pm install smartcontractkit/chainlink-brownie-contracts@0.2.2
     
+
+## Environment variables 
+<hr>
+
+VERY IMPORTANT:
+Before you start testing and compiling in project root directory you should add .env file and inside that file add your private keys and following infura endpoint: 
+
+        # Here we have private key export         
+        PRIVATE_KEY=xxxxxx
+        
+        # Then we should ad infura entry point though which we will approach to ethereum
+        export WEB3_INFURA_PROJECT_ID=d95759f532d54ae58967e92d9ccccf95
+
+## Compile and test
+<hr>
+To compile and test project locally just type in project root directory:
+
+    $ brownie compile
+    $ brownie test
+
+And you should see that 9 test are passed (with this test we did basica coverage of expected return values for all functions in main SmartCOOP contract)
+
+
+<br>
+
 ## dapp usage over http localhost:  
 <hr>
 
@@ -172,30 +197,6 @@ SmartCOOP front-end should be visible in your browser ready for interaction.
 Important notice: Dapp is tested on local server and over https://ilijapet.github.io/smartCOOP/client/ according to the instructions we provide above and with following browsers: Brave, Chrome and Edge browser. As well as in the context of a clean Virtual machine (Linux Debina, Brave browser over Oracle VM VirtualBox).
 
 Only Firefox returned to us some exotic error that we finally did't succeed to figure out the root cause of this. And that is why if you test dapp over Firefox most probably you will confront some unexpected behaviour. 
-
-## Environment variables 
-<hr>
-
-VERY IMPORTANT:
-Before you start testing and compiling in project root directory you should add .env file and inside that file add your private keys and following infura endpoint: 
-
-        # Here we have private key export         
-        PRIVATE_KEY=xxxxxx
-        
-        # Then we should ad infura entry point though which we will approach to ethereum
-        export WEB3_INFURA_PROJECT_ID=d95759f532d54ae58967e92d9ccccf95
-
-## Compile and test
-<hr>
-To compile and test project locally just type in project root directory:
-
-    $ brownie compile
-    $ brownie test
-
-And you should see that 9 test are passed (with this test we did basica coverage of expected return values for all functions in main SmartCOOP contract)
-
-
-<br>
 
 ## Step by step guide for dapp usage
 
