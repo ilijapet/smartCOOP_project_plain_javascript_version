@@ -20,7 +20,8 @@ contract SmartCOOP is Pausable, Ownable {
     uint256 private constant RASPBERRY_PRICE = 9;
 
     // State variables
-
+    
+    /// @dev All state varibales are marked with starting s_
     address[] public s_warehouseStock;
 
     struct Cooperant {
@@ -67,7 +68,7 @@ contract SmartCOOP is Pausable, Ownable {
 
     // Modifiers
 
-    ///@dev control that that function can be called only by SmartCOOP members (depositFruitsToCOOP function)
+    ///@dev control that function can be called only by SmartCOOP members (depositFruitsToCOOP function)
     modifier onlyMembers() {
         require(
             s_cooperants[msg.sender].feePayed != 0,
@@ -109,7 +110,7 @@ contract SmartCOOP is Pausable, Ownable {
     }
 
     /// @notice Allowing EOA which already pay SmartCOOP membership fee to deposit fruits to SmartCOOP warehouse
-    /// @param _kg Passing number of kilograms producer would like to deploy to warehouse
+    /// @param _kg Passing number of kilograms producer would like to deposit to warehouse
     /// @return If execution was successful function will return true
     function depositFruitsToCOOP(uint256 _kg)
         public
@@ -191,10 +192,10 @@ contract SmartCOOP is Pausable, Ownable {
         return true;
     }
 
-    /// @notice This function is used to transfer COOPTokens to producer account in equal amount to fruits he deposit to warehouse.
+    /// @notice This function is used to transfer COOPTokens to producer account in equal amount to the fruits he deposit to warehouse.
     /// @dev Used only inside depositFruitsToCOOP function.
     /// @param receiver Passing address to which COOPToken will be transferred.
-    /// @param _kg Number of kilograms of fruits producer deploy to warehouse. Based on this argument he will receive equal amount of COOPTokens.
+    /// @param _kg Number of kilograms of fruits producer would like to deploy to warehouse. Based on this argument he will receive equal amount of COOPTokens.
     /// @return If execution was successful function will return true.
     function coopTokenTransferTo(address receiver, uint256 _kg)
         private
@@ -266,11 +267,11 @@ contract SmartCOOP is Pausable, Ownable {
         _unpause();
     }
 
-    /** @notice This function is used to get ETH/USD price ration from Chainlink price data feed. This function is used to calculate how much bidder needs
-     * to pay for fruits he bought from SmartCOOP and how much SmartCOOP should trnasfer to producer.
+    /** @notice This function is used to get ETH/USD price ration from Chainlink price data feed. This return value form this function is later used to calculate 
+     * how much bidder needs to pay for fruits he bought from SmartCOOP .
      * @dev In case we deploy contracts to local dev enviroment get_contract and get_acount fuctions from scripts/helpful_scripts.py will deploy mock
-     * contract to be used in context of local dev. enviroment. In case we deploy to Kovan test net same function will deploy adequte contracts and use
-     * proper account for this purpose.
+     * contract to be used in context of local dev. enviroment. In case we deploy to Kovan test net same function will deploy adequte contracts (KOvan testnet) and use
+     * proper accounts for this purpose.
      * @return This function returns price (int256 data type) provided by Chainlink price date feed
      */
     function getLatestPrice() public view returns (int256) {
