@@ -188,7 +188,7 @@ You should get something like:
     http://192.168.152.174:8080
     Hit CTRL-C to stop the server
 
-And then copy&past to your browser address bar:
+Step 3: copy&past to your browser address bar:
 
     http://192.168.152.174:8080
     
