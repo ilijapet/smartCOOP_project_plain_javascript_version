@@ -86,6 +86,7 @@ The project assumes that Agricultural Cooperative has:
 NVM, NPM, Yarn 
 
 From root directory install node 12
+
 $nvm install 12
 
 Python >= 3.6.0 
