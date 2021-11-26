@@ -171,7 +171,7 @@ SmartCOOP front-end should be visible in your browser ready for interaction.
 
 Important notice: Dapp is tested on local server and over https://ilijapet.github.io/smartCOOP/client/ according to the instructions we provide above and with following browsers: Brave, Chrome and Edge browser. As well as in the context of a clean Virtual machine (Linux Debina, Brave browser over Oracle VM VirtualBox).
 
-Only Firefox returned to us some exotic error that we finally did it secured to figure out the root cause and that is why if you test dapp over Firefox most probably you will confront some unexpected behaviour. 
+Only Firefox returned to us some exotic error that we finally did't succeed to figure out the root cause of this. And that is why if you test dapp over Firefox most probably you will confront some unexpected behaviour. 
 
 ## Environment variables 
 <hr>
