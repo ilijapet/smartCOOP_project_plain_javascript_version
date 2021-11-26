@@ -98,7 +98,7 @@ Python >= 3.6.0
 <hr>
 From project root directory please type (beafore this you need to install node 12)
 
-    smartCOOP$ npm install -g ganache-cli
+   $ npm install -g ganache-cli
 
 
 ## Brownie
@@ -136,7 +136,7 @@ Or simply:
 <hr>
 Please from project root directory use following command:
 
-    smartCOOP$ brownie pm install OpenZeppelin/openzeppelin-contracts@4.0.0
+    $ brownie pm install OpenZeppelin/openzeppelin-contracts@4.0.0
 
 <br>
 
@@ -144,7 +144,7 @@ Please from project root directory use following command:
 <hr>
 Please from project root directory use following command:
 
-    smartCOOP$ brownie pm install smartcontractkit/chainlink-brownie-contracts@0.2.2
+    $ brownie pm install smartcontractkit/chainlink-brownie-contracts@0.2.2
     
 ## dapp usage over http localhost:  
 <hr>
@@ -168,8 +168,13 @@ And then copy&past to your browser address bar:
     http://192.168.152.174:8080
     
 SmartCOOP front-end shoudl be visible in your browser ready for interaction. 
+If you have any problem  just realod page on browser on refersh button and you shoudl be ready to go.
 
-Notice: if you have any problem  just realod page on browser on refersh button and you shoudl be ready to go
+
+Important notice: Dapp is tested on local server and over https://ilijapet.github.io/smartCOOP/client/ accroding to instruction we provide above and with follwoing browsers: Brave, Chrome and Edge browser. As well as in context on clean Virtual machine (Linux Debina, Brave browser over Oracle VM VirtualBox). 
+
+Only Firefox return to us some exotic error that we finally did't sacued to figure out root cause and that is why if you test dapp over Firefox most probably you will have some strange problems. 
+
 
 ## Environment variables 
 <hr>
@@ -193,7 +198,6 @@ To compile and test project localy just type in project root directory:
 And you should see that 9 test are passed (with this test we did basica coverage of expected return values for all functions in main SmartCOOP contract)
 
 
-
 <br>
 
 ## Step by step guide for dapp usage
@@ -201,9 +205,11 @@ And you should see that 9 test are passed (with this test we did basica coverage
 <hr>
 IMPORTANT: Please note that in attempt to test and use dapp you will need two have at least two EOA accounts with Kovan test eth. One to become cooperant and second to be bidder.
 
+1) Open your browser
+
 1) From client folder run 
 
-        $ python3 -m hhtp:server
+        $http-server
 
 2) Open browser and type in address bar
 
