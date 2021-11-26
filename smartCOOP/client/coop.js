@@ -213,5 +213,5 @@ try {
 }
 
 window.addEventListener("load", async () => {
-  init();
+ init();  
 });
