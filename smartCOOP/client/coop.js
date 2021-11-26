@@ -213,4 +213,5 @@ try {
 
 window.addEventListener("load", async () => {
  init(); 
+ window.location.reload();
 });
