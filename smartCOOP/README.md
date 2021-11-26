@@ -20,7 +20,7 @@
 <br>
 
 ## Address for accessing SmartCOOP front-end 
-Please click on link below // Don't copy & past link to browser. Or if you copy & past link to browser make shure that you refresh page beafore you use dapp.
+Please click on link below (Don't copy & past link to browser address bar. Or if you copy & past link to browser make shure that you refresh page beafore dapp usage.)
 <hr>
 
 https://ilijapet.github.io/smartCOOP/client/
@@ -145,23 +145,31 @@ Please from project root directory use following command:
 Please from project root directory use following command:
 
     smartCOOP$ brownie pm install smartcontractkit/chainlink-brownie-contracts@0.2.2
-
-## http-localhost over HTTP 
+    
+## dapp usage over http localhost:  
 <hr>
 
-From client folder
+Step 1: Open your browser
 
-    $python3 -m http.server
+Step 2: From client folder
+    
+    $npm install http-server
+    $http-server
 
 You should get something like:
 
-    Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+    Available on:
+    http://127.0.0.1:8080
+    http://192.168.152.174:8080
+    Hit CTRL-C to stop the server
 
-And then from browser:
+And then copy&past to your browser address bar:
 
-    http://localhost:8000
+    http://192.168.152.174:8080
     
-SmartCOOP front-end now shoudl be visible in your broweser 
+SmartCOOP front-end shoudl be visible in your browser ready for interaction. 
+
+Notice: if you have any problem  just realod page on browser on refersh button and you shoudl be ready to go
 
 ## Environment variables 
 <hr>
