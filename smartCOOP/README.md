@@ -20,7 +20,7 @@
 <br>
 
 ## Address for accessing SmartCOOP front-end 
-Please click on link below (Don't copy & past link to browser address bar. Or if you copy & past link to browser make shure that you refresh page beafore dapp usage.)
+Please click on link below (Don't copy & past link to browser address bar. Or if you copy & past link to browser make sure that you refresh page before dapp usage.)
 <hr>
 
 https://ilijapet.github.io/smartCOOP/client/
@@ -167,20 +167,19 @@ And then copy&past to your browser address bar:
 
     http://192.168.152.174:8080
     
-SmartCOOP front-end shoudl be visible in your browser ready for interaction. 
-If you have any problem  just realod page on browser on refersh button and you shoudl be ready to go.
+SmartCOOP front-end should be visible in your browser ready for interaction.
+If you have any problem  just reload the page on the browser on the refresh button and you should be ready to go.
 
 
-Important notice: Dapp is tested on local server and over https://ilijapet.github.io/smartCOOP/client/ accroding to instruction we provide above and with follwoing browsers: Brave, Chrome and Edge browser. As well as in context on clean Virtual machine (Linux Debina, Brave browser over Oracle VM VirtualBox). 
+Important notice: Dapp is tested on local server and over https://ilijapet.github.io/smartCOOP/client/ according to the instructions we provide above and with following browsers: Brave, Chrome and Edge browser. As well as in the context of a clean Virtual machine (Linux Debina, Brave browser over Oracle VM VirtualBox).
 
-Only Firefox return to us some exotic error that we finally did't sacued to figure out root cause and that is why if you test dapp over Firefox most probably you will have some strange problems. 
-
+Only Firefox returned to us some exotic error that we finally did it secured to figure out the root cause and that is why if you test dapp over Firefox most probably you will confront some unexpected behaviour. 
 
 ## Environment variables 
 <hr>
 
-VERY IMPORTANT: 
-Beafore you start testing and compiling in project root directory you should add .env file and inside thta file add your private keys and following infura endpoint: 
+VERY IMPORTANT:
+Before you start testing and compiling in project root directory you should add .env file and inside that file add your private keys and following infura endpoint: 
 
         # Here we have private key export         
         PRIVATE_KEY=xxxxxx
@@ -190,7 +189,7 @@ Beafore you start testing and compiling in project root directory you should add
 
 ## Compile and test
 <hr>
-To compile and test project localy just type in project root directory:
+To compile and test project locally just type in project root directory:
 
     $ brownie compile
     $ brownie test
@@ -203,7 +202,7 @@ And you should see that 9 test are passed (with this test we did basica coverage
 ## Step by step guide for dapp usage
 
 <hr>
-IMPORTANT: Please note that in attempt to test and use dapp you will need two have at least two EOA accounts with Kovan test eth. One to become cooperant and second to be bidder.
+IMPORTANT: Please note that in attempt to test and use dapp you will need two have at least two EOA accounts with Kovan test eth. One to become a cooperant and second for a bidder.
 
 1) Open your browser
 
