@@ -85,7 +85,8 @@ The project assumes that Agricultural Cooperative has:
 
 NVM, NPM, Yarn 
 
-Node 12
+From root directory install node 12
+$nvm install 12
 
 Python >= 3.6.0 
 
@@ -93,9 +94,9 @@ Python >= 3.6.0
 
 ## Ganche-cli 
 <hr>
-From project root directory please type
+From project root directory please type (beafore this you need to install node 12)
 
-    ➜ smartCOOP$ npm install -g ganache-cli
+    smartCOOP$ npm install -g ganache-cli
 
 
 ## Brownie
@@ -133,7 +134,7 @@ Or simply:
 <hr>
 Please from project root directory use following command:
 
-    ➜ smartCOOP$ brownie pm install OpenZeppelin/openzeppelin-contracts@4.0.0
+    smartCOOP$ brownie pm install OpenZeppelin/openzeppelin-contracts@4.0.0
 
 <br>
 
@@ -141,7 +142,7 @@ Please from project root directory use following command:
 <hr>
 Please from project root directory use following command:
 
-    ➜ smartCOOP$ brownie pm install smartcontractkit/chainlink-brownie-contracts@0.2.2
+    smartCOOP$ brownie pm install smartcontractkit/chainlink-brownie-contracts@0.2.2
 
 ## http-localhost over HTTP 
 <hr>
