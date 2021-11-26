@@ -191,7 +191,7 @@ And you should see that 9 test are passed (with this test we did basica coverage
 ## Step by step guide for dapp usage
 
 <hr>
-
+IMPORTANT: Please note that in attempt to test and use dapp you will need two have two EOA accounts with Kovan test eth. One to become cooperant and second to be bidder.
 1) From client folder run 
 
         $ python3 -m hhtp:server
