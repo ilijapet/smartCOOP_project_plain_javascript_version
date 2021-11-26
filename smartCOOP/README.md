@@ -20,7 +20,7 @@
 <br>
 
 ## Address for accessing SmartCOOP front-end 
-Please click on link below (Don't copy & past link to browser address bar. Or if you copy & past link to browser make sure that you refresh page before dapp usage.)
+Please click on link below (don't copy & past link to browser address bar or if you copy & past link to browser make sure that you refresh page before dapp usage.)
 <hr>
 
 https://ilijapet.github.io/smartCOOP/client/
