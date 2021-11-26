@@ -19,7 +19,7 @@
 
 <br>
 
-## Address for accessing SmartCOOP front-end 
+## Address for accessing SmartCOOP front-end (Please click on link below // don't copy and past)
 <hr>
 
 https://ilijapet.github.io/smartCOOP/client/
