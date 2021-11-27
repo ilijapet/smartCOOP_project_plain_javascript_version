@@ -37,16 +37,20 @@ import {
   from "./helpers.js";
 
 
+const reloadUsingLocationHash = () => {
+      window.location.hash = "reload";
+    }
+//    window.onload = reloadUsingLocationHash();
 
 // Init function is runned when page is loaded.
-function init() {
+function init() {  
   console.log("Ethereum provider is", window.ethereum);
   if (typeof window.ethereum !== 'undefined') {
     console.log('MetaMask is installed!');
   }
 
   cooperantProfile.style.visibility = "hidden";
-  bidderProfile.style.visibility = "hidden";
+  bidderProfile.style.visibility = "hidden";  
 }
 
 
@@ -88,20 +92,20 @@ async function fetchAccountDataBidder() {
 
 
 // // Connect wallet button 
-btnConnect.onclick = async () => {
+btnConnect.onclick = async () => {     
   try {
-    ethereum.request({ method: 'eth_requestAccounts' });
-  } catch (err) {
-    console.log("Could not get a wallet connection", err);
-  }
-  var connectedAccount = ethereum.selectedAddress;
-  const cooperantAccount = await coopContract.methods.getUserAccountBalance(connectedAccount).call();
+    const address = await ethereum.request({ method: 'eth_requestAccounts' });        
+  } catch (error) {
+    console.log("Could not get a wallet connection", error);
+  }  
+  var connectedAccount = ethereum.selectedAddress;  
+  const cooperantAccount = await coopContract.methods.getUserAccountBalance(connectedAccount).call();  
   if (ethereum.selectedAddress !== null && cooperantAccount[0] !== '0') {
     cooperantProfile.style.visibility = "visible";
-    fetchAccountDataCooperant();
+    fetchAccountDataCooperant();    
   } else {
     bidderProfile.style.visibility = "visible";
-    fetchAccountDataBidder();
+    fetchAccountDataBidder();  
   }
 }
 
@@ -212,7 +216,10 @@ try {
   console.error('Please install MetaMask', err)
 }
 
-window.addEventListener("load", async () => {
-  init();
+window.addEventListener("load", async () => {   
+  init();  
+  reloadUsingLocationHash();
 });
+
+
 
