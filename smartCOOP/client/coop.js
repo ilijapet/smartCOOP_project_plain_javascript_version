@@ -40,7 +40,6 @@ import {
 const reloadUsingLocationHash = () => {
       window.location.hash = "reload";
     }
-//    window.onload = reloadUsingLocationHash();
 
 // Init function is runned when page is loaded.
 function init() {  
