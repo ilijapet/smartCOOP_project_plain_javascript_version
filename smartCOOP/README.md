@@ -194,7 +194,9 @@ Step 3: copy&past to your browser address bar:
     
 SmartCOOP front-end should be visible in your browser ready for interaction.
 
-Important notice: Dapp is tested on local server and over https://ilijapet.github.io/smartCOOP/client/ according to the instructions we provide above and with following browsers: Brave, Chrome, Firefox and Edge browser. As well as in the context of a clean Virtual machine (Linux Debina, Brave browser over Oracle VM VirtualBox).
+Important notice: Dapp is tested on local server and over https://ilijapet.github.io/smartCOOP/client/ according to the instructions we provide above and with following browsers: Brave, Chrome, Firefox and Edge browser as well as in the context of a clean Virtual machine (Linux Debina, Brave browser over Oracle VM VirtualBox). SmartCOOP dapp was functioning smoothly in all this browser when we run over local server and over github page except in one specific situation.
+
+Bugs noticed in interaction with Brave browser to be aware: in specific situations when you are already logged in your MetaMask wallet and you land at the front-end and try to click 'Connect wallet' ethereum.selectedAddress return 'undefined'. In all other browsers and contexts where we test our dapp and in the same situation we get in return expected value what is ethereum address string data type and dapp is fully functional in all possbile scenarios. In case when we refresh the page even Brave returns expected value and work properly. Unfortunately till the end of this process we did`t figure out the root cause of this Brave behaviour.            
 
 ## Step by step guide for dapp usage
 
