@@ -95,9 +95,10 @@ Python >= 3.6.0
 
 ## Ganche-cli 
 <hr>
+
 From project root directory please type (beafore this you need to install node 12)
 
-   $ npm install -g ganache-cli
+      $ npm install -g ganache-cli
 
 
 ## Brownie
@@ -202,7 +203,7 @@ IMPORTANT: Please note that in attempt to test and use dapp you will need two ha
 
 1) Open your browser
 
-1) From client folder run 
+1) From client folder in your editor or IDE run 
 
         $http-server
 
