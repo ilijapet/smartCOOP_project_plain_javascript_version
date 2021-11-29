@@ -151,7 +151,7 @@ Please from project root directory use following command:
 <hr>
 
 VERY IMPORTANT:
-Before you start testing and compiling in project root directory you should add .env file and inside that file add your private keys and following infura endpoint: 
+Before you start testing and compiling in project smartCOOP root directory you should add .env file and inside that file add your private keys and following infura endpoint: 
 
         # Here we have private key export         
         PRIVATE_KEY=xxxxxx
