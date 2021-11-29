@@ -192,6 +192,28 @@ Step 3: copy&past to your browser address bar:
 
     http://192.168.152.174:8080
     
+    
+SmartCOOP front-end should be visible in your browser ready for interaction.
+    
+ 
+Or Python version
+
+Step 1: Open your browser
+
+Step 2: From clinet folder
+
+        $pyhton3 -m http.server
+        
+You should get something like:
+
+        Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+        
+Step 3: Go back to your browser and type in address bar:
+
+        http://localhost:8000
+
+       
+    
 SmartCOOP front-end should be visible in your browser ready for interaction.
 
 Important notice: Dapp is tested on local server and over https://ilijapet.github.io/smartCOOP/client/ according to the instructions we provide above and with following browsers: Brave, Chrome, Firefox and Edge browser as well as in the context of a clean Virtual machine (Linux Debina, Brave browser over Oracle VM VirtualBox). SmartCOOP dapp was functioning smoothly in all this browser when we run over local server and over github page except in one specific situation.
