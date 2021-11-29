@@ -111,8 +111,13 @@ installing. Recommanded way is pipx.
 
 You may need to restart your terminal after installing pipx.
 
-Install Brownie with pipx 
+If you dont have installed venv please type 
 
+    $ sudo apt install python3-venv
+
+
+Install Brownie with pipx 
+    
     $pipx install eth-brownie
 
 Once installation is completed type Brownie to verify that is working:
