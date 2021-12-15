@@ -33,9 +33,7 @@ https://www.youtube.com/watch?v=Y9qr7ybG-lA
 
 <br>
 
-## My public ETH address for NFT certification 
-<hr>
-0xBba4256C9dba48281B71610F30E18c4DeD73B2F3
+
 
 <br>
 
