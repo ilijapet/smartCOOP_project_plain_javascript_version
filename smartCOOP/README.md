@@ -154,13 +154,13 @@ Please from project root directory use following command:
 <hr>
 
 VERY IMPORTANT:
-Before you start testing and compiling in project smartCOOP root directory you should add .env file and inside that file add your private keys and following infura endpoint: 
+Before you start testing and compiling in project smartCOOP root directory you should add .env file and inside that file add your private keys as well as infura endpoint: 
 
         # Here we have private key export         
         PRIVATE_KEY=xxxxxx
         
         # Then we should ad infura entry point though which we will approach to ethereum
-        export WEB3_INFURA_PROJECT_ID=d95759f532d54ae58967e92d9ccccf95
+        export WEB3_INFURA_PROJECT_ID=XXXXX
 
 ## Compile and test
 <hr>
@@ -249,7 +249,7 @@ IMPORTANT: Please note that in attempt to test and use dapp you will need two ha
 12) Click on button **Buy raspbeery** and wait process to finish
 
 ## TODO
-1) Mobile QR code confirmaiton for deposit and buy function. This simple additional functionality can resolve problem of confirmation from the side of producer that certain amount of goods is recived in smartCOOP warehouse. And on this way we can close full circle from depositing to selling and lower countrparty risks involved and need from trust on the side of producers. 
+1) Mobile QR code confirmaiton for deposit and buy function. This simple additional functionality can resolve problem of confirmation from the side of producer that certain amount of goods is recived in smartCOOP warehouse. And on this way we can close full circle from depositing to selling and lower countrparty risks neccesity for trust in majority of steps in this process. 
 
 ## Tech stack used for project
 
