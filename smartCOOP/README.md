@@ -57,7 +57,7 @@ Small agricultural producers don't have enough capacity to be effectively presen
 - Get real time market price on the day of selling and not lowest average season price
 - Cut different contraparty risks (corporative and cooperative one)
 - Cost effective way to manage cooperative
-- Increased number of possible buyers. In the blockchain world you don't need to know or trust buyers or to have already developed relations with them to be able to effectively do business with them. This can drastically increases the number of potential business partners and lowers legal and logistical cost of doing business.
+- Increased number of possible buyers. In the blockchain world you don't need to know or trust buyers or to have already developed relations with them to be able to effectively do business with them. This can drastically increases the number of potential business partners and lower legal and logistical cost of doing business.
 
 
 ### 3) Project assumption:
@@ -247,6 +247,9 @@ IMPORTANT: Please note that in attempt to test and use dapp you will need two ha
 9) Click again on **Connect wallet** button (now you are in bidders profile)
 11) Type that you want to buy 10 kg in squere after "I want to buy"  
 12) Click on button **Buy raspbeery** and wait process to finish
+
+## TODO
+1) Mobile QR code confirmaiton for deposit and buy function. This simple additional functionality can resolve problem of confirmation from the side of producer that certain amount of goods is recived in smartCOOP warehouse. And on this way we can close full circle from depositing to selling and lower countrparty risks involved and need from trust on the side of producers. 
 
 ## Tech stack used for project
 
