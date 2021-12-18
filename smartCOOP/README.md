@@ -250,6 +250,7 @@ IMPORTANT: Please note that in attempt to test and use dapp you will need two ha
 
 ## TODO
 1) Mobile QR code confirmaiton for deposit and buy function. This simple additional functionality can resolve problem of confirmation from the side of producer that certain amount of goods is recived in smartCOOP warehouse. And on this way we can close full circle from depositing to selling and lower countrparty risks and neccesity for trust in majority of steps in this process. 
+2) Write in python selenium base tests for testing UI in diffrent browsers. 
 
 ## Tech stack used for project
 
