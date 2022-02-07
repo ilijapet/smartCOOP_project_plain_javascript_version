@@ -17,17 +17,6 @@ DECIMALS = 18
 INITIAL_VALUE = Web3.toWei(2000, "ether")
 
 
-# def get_provider():
-#     if network.show_active() == "development":
-#         return Web3(Web3.HTTPProvider("http://127.0.0.1:8545"))
-#     else:
-#         return Web3(
-#             Web3.HTTPProvider(
-#                 endpoint_uri="https://kovan.infura.io/v3/d95759f532d54ae58967e92d9ccccf95"
-#             )
-#         )
-
-
 def get_account():
     if network.show_active() == "development":
         return accounts[0], accounts[1]
@@ -36,7 +25,7 @@ def get_account():
 
 
 def get_contract(contract_name):
-    """If you want to use this function, go to the brownie config and add a new entry for
+    """To use this function, go to the brownie config and add a new entry for
     the contract that you want to be able to 'get'. Then add an entry in the in the variable 'contract_to_mock'.
     You'll see examples like the 'link_token'.
         This script will then either:
@@ -75,7 +64,7 @@ def get_contract(contract_name):
 
 def deploy_mocks(decimals=DECIMALS, initial_value=INITIAL_VALUE):
     """
-    Use this script if you want to deploy mocks to a testnet
+    Function for deploying mocks to a testnet
     """
     print(f"The active network is {network.show_active()}")
     print("Deploying Mocks...")
